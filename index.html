@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Growth & Systems for Architecture Practices | Profit Rx</title>
+    <meta name="description" content="Get a tailored growth audit for your architecture practice. Identify revenue leaks, improve client quality, and build a predictable project pipeline.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://profitrx.co.uk/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Growth & Systems for Architecture Practices">
+    <meta property="og:description" content="Stop guessing. Get a priority 30/60/90 day plan to fix your architecture practice growth.">
+    <meta property="og:url" content="https://profitrx.co.uk/">
+    <meta property="og:image" content="hero-bg-compressed.webp">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Growth & Systems for Architecture",
+      "url": "https://profitrx.co.uk",
+      "description": "Consulting and systems implementation for architecture and design practices.",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UK"
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    </noscript>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <svg class="visually-hidden" aria-hidden="true">
+        <linearGradient id="goldGradient" x2="1" y2="1">
+            <stop offset="0%" stop-color="#D4AF37" />
+            <stop offset="50%" stop-color="#FCF6BA" />
+            <stop offset="100%" stop-color="#B38728" />
+        </linearGradient>
+    </svg>
+
+    <header id="main-nav">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Profit Rx Home">
+                <img src="logo.webp" alt="Profit Rx Logo" width="160" height="40">
+            </a>
+            <nav class="nav-links mobile-hide">
+                <a href="#application">Contact</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://profitrx.co.uk/#results">Case Studies</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="split-reveal">Get Your Practice<br>Growth Audit</h1>
+                    <p class="subhead split-reveal">Fix inconsistent enquiries, price shoppers,<br>and slow proposals.</p>
+                    
+                    <ul class="hero-bullets">
+                        <li class="hero-bullet">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 
+                            Find what’s leaking revenue
+                        </li>
+                        <li class="hero-bullet">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 
+                            Find what’s leaking time
+                        </li>
+                        <li class="hero-bullet">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> 
+                            Get a priority 30/60/90 plan
+                        </li>
+                    </ul>
+                    
+                    <p class="trust-line u-opacity-0">No obligation. If we’re not a fit, we’ll tell you.</p>
+                </div>
+
+                <div class="hero-card u-opacity-0 u-transform-right">
+                    <div class="step-indicator">Step 1 of 3</div>
+                    <h2 class="card-question">What type of firm are you?</h2>
+                    
+                    <div class="radio-group" role="radiogroup" aria-label="Firm Type Selection">
+                        <label class="radio-option" for="hero-arch">
+                            Architecture
+                            <input type="radio" id="hero-arch" name="firm_hero" value="Architecture">
+                        </label>
+                        <label class="radio-option" for="hero-int">
+                            Interior Design
+                            <input type="radio" id="hero-int" name="firm_hero" value="Interior">
+                        </label>
+                        <label class="radio-option" for="hero-db">
+                            Design-Build
+                            <input type="radio" id="hero-db" name="firm_hero" value="Design-Build">
+                        </label>
+                    </div>
+                    <button class="btn btn-primary hero-btn w-100 mt-md" id="start-app-btn">Start Application</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="patterns" class="section-padding">
+            <div class="container text-center">
+                <div class="mb-lg">
+                    <h2 class="split-reveal">Common patterns we see</h2>
+                </div>
+                <div class="patterns-grid">
+                    <div class="pattern-item">Price shoppers treat you like a commodity.</div>
+                    <div class="pattern-item">Strong work, but weak market signal.</div>
+                    <div class="pattern-item">Proposals drag on for weeks.</div>
+                    <div class="pattern-item">WhatsApp & Email chaos.</div>
+                    <div class="pattern-item">Busy team, but unpredictable profit.</div>
+                    <div class="pattern-item">Reliance on referrals only.</div>
+                </div>
+                <p class="mt-lg text-center u-opacity-60">This audit shows what’s costing you most right now.</p>
+            </div>
+        </section>
+
+        <section id="who" class="section-padding">
+            <div class="container who-content">
+                <div class="who-img">
+                    <img src="hero-bg-compressed.webp" alt="Frustrated architect working late at office" width="600" height="550" loading="lazy" decoding="async">
+                </div>
+                <div class="who-list">
+                    <h2 class="split-reveal">Is this for you?</h2>
+                    <br>
+                    <div class="checklist-item">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> 
+                        Active practice with paid projects
+                    </div>
+                    <div class="checklist-item">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> 
+                        Wants premium clients + predictable pipeline
+                    </div>
+                    <div class="checklist-item">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg> 
+                        Open to improving systems, not just "posting more"
+                    </div>
+                    
+                    <div class="disclaimer-box">
+                        <strong>Note:</strong> If you’re starting from zero, we can still advise — but this audit is built specifically for active practices.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="deliverables" class="section-padding">
+            <div class="container">
+                <span class="step-indicator">WHAT YOU RECEIVE</span>
+                <h2 class="split-reveal text-white">Detailed Audit Breakdown</h2>
+                
+                <div class="bento-grid mt-md">
+                    <div class="bento-card">
+                        <h3>Brand Clarity Score</h3>
+                        <p>How clearly does the market understand your value?</p>
+                    </div>
+                    <div class="bento-card">
+                        <h3>Lead Quality Score</h3>
+                        <p>Are you attracting budget shoppers or investors?</p>
+                    </div>
+                    <div class="bento-card">
+                        <h3>Conversion Systems</h3>
+                        <p>Where are deals falling out of the pipeline?</p>
+                    </div>
+                    <div class="bento-card">
+                        <h3>Offer & Pricing</h3>
+                        <p>Are you undercharging for your expertise?</p>
+                    </div>
+                    <div class="bento-card">
+                        <h3>Priority Fix Plan</h3>
+                        <p>Your custom 30/60/90 day roadmap.</p>
+                    </div>
+                    <div class="bento-card border-gold">
+                        <h3 class="text-gold-light">The Walkthrough</h3>
+                        <p>Simple PDF + Short Video explanation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how" class="section-padding">
+            <div class="container text-center">
+                <div>
+                    <h2 class="split-reveal">How it works</h2>
+                    <p>No pushy calls. Diagnostic first.</p>
+                </div>
+                <div class="process-steps">
+                    <div class="process-line-bg"></div>
+                    <div class="process-line-fill"></div> 
+                    
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <h3>Apply</h3>
+                        <p>Complete the 3-5 minute assessment.</p>
+                    </div>
+                    <div class="step text-center">
+                        <div class="step-num">2</div>
+                        <h3>Review</h3>
+                        <p>We review your data and prepare your summary.</p>
+                    </div>
+                    <div class="step text-right">
+                        <div class="step-num">3</div>
+                        <h3>Feedback</h3>
+                        <p>If we can help, we invite you to discuss the plan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proof" class="section-padding">
+            <div class="container">
+                <div class="testimonials">
+                    <div class="testimonial-card">
+                        <p class="split-reveal quote-text">"We stopped getting price-shopped. The audit showed us exactly where our messaging was attracting the wrong people."</p>
+                        <br>
+                        <strong>— Residential Studio, London</strong>
+                    </div>
+                    <div class="testimonial-card mt-lg"> 
+                        <p class="split-reveal quote-text">"The 90-day plan gave us structure. We saved about 10 hours a week just by fixing our onboarding process."</p>
+                        <br>
+                        <strong>— Design-Build Firm, NY</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="risk" class="section-padding">
+            <div class="container">
+                <div class="risk-box">
+                    <h2>Our Promise</h2>
+                    <p class="risk-text">If we can’t identify at least 3 actionable improvements, we won’t invite you to a call.</p>
+                    <p>You still leave with clarity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="application">
+            <div class="container form-container">
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progressBar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <form id="auditForm">
+                    <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+                    <div class="form-step active" id="step1">
+                        <h3 class="step-title">Step 1: The Basics</h3>
+                        
+                        <div class="form-group">
+                            <input type="text" id="business_name" name="business_name" class="form-input" placeholder=" " required>
+                            <label for="business_name" class="floating-label">Firm Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="url" id="website" name="website" class="form-input" placeholder=" " required>
+                            <label for="website" class="floating-label">Website URL</label>
+                        </div>
+                        <div class="form-group">
+                            <select name="service_type" id="mainServiceSelect" class="form-select" required>
+                                <option value="Architecture">Architecture</option>
+                                <option value="Interior">Interior Design</option>
+                                <option value="Design-Build">Design-Build</option>
+                            </select>
+                            <label for="mainServiceSelect" class="floating-label label-active text-gold">Primary Service</label>
+                        </div>
+                        
+                        <div class="form-nav justify-end">
+                            <button type="button" class="btn btn-primary" data-next="2">Next Step</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step2">
+                        <h3 class="step-title">Step 2: The Bottleneck</h3>
+                        
+                        <div class="form-group">
+                            <textarea id="goal" name="goal" class="form-textarea" placeholder=" " required></textarea>
+                            <label for="goal" class="floating-label">What do you want more of?</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="obstacle" name="obstacle" class="form-textarea" placeholder=" " required></textarea>
+                            <label for="obstacle" class="floating-label">What is stopping you?</label>
+                        </div>
+                        
+                        <div class="form-nav">
+                            <button type="button" class="btn btn-ghost" data-prev="1">Back</button>
+                            <button type="button" class="btn btn-primary" data-next="3">Next Step</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step3">
+                        <h3 class="step-title">Step 3: Intent</h3>
+                        
+                        <div class="form-group">
+                            <select name="open_to_help" id="open_to_help" class="form-select" required>
+                                <option value="Yes">Yes, I want to move faster.</option>
+                                <option value="Maybe">Maybe, depends on the plan.</option>
+                                <option value="No">No, just want the audit.</option>
+                            </select>
+                            <label for="open_to_help" class="floating-label label-active text-gold">Open to help?</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="emailInput" name="email" class="form-input" placeholder=" " required>
+                            <label for="emailInput" class="floating-label">Your Email</label>
+                        </div>
+
+                        <div class="captcha-box">
+                            <label for="math-a" class="captcha-label">Prove you are human: <span id="math-q" class="font-bold text-black"></span> = ?</label>
+                            <input type="number" id="math-a" class="form-input bg-white mt-sm" placeholder="Answer" required>
+                        </div>
+                        
+                        <div class="form-nav">
+                            <button type="button" class="btn btn-ghost" data-prev="2">Back</button>
+                            <button type="submit" class="btn btn-gold w-200">Review & Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="container text-center">
+                <div class="split-reveal cta-head">Stop guessing.</div>
+                <p class="cta-sub">3–5 minutes. Clear priority plan.</p>
+                
+                <div class="magnetic-wrap">
+                    <a href="#application" class="btn btn-gold magnetic-btn">Start Application</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">&copy; 2024 Growth & Systems. All rights reserved.</div>
+    </footer>
+
+    <div id="privacy-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <h3 id="modal-title" class="modal-head">Terms & Privacy</h3>
+            <p class="text-sm">Please agree to our policies to proceed.</p>
+            <div class="modal-body">
+                <p>1. We store your data securely.</p>
+                <p>2. We do not sell your info.</p>
+                <p>3. <a target="_blank" rel="noopener noreferrer" href="https://profitrx.co.uk/pages/privacy-policy" class="text-underline">Read Full Privacy Policy</a></p>
+            </div>
+            <button class="btn btn-gold w-100" id="confirm-submit">I Agree & Submit</button>
+            <button class="btn-cancel" id="cancel-modal">Cancel</button>
+        </div>
+    </div>
+
+    <div id="thank-you-modal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <h2>Received</h2>
+            <p>We'll be in touch within 24 hours.</p>
+            <button class="btn btn-primary mt-md" onclick="location.reload()">Close</button>
+        </div>
+    </div>
+
+</body>
+</html>
